@@ -3,6 +3,15 @@ import multiprocessing
 import argparse
 import queue
 import http.client
+import json
+
+
+def get_lines_from_json(json_data):
+    data = json.load(json_data)
+    lines = []
+    for index in data:
+        lines.append(data[index]["instruction"])
+    return lines
 
 
 def worker_run(worker_queue):
@@ -95,18 +104,20 @@ def run_from_file(max_workers, filename, file_lines=[]):
 
         lines = [lines[i] for i in file_lines]
 
+    run_command_lines(max_workers, lines)
 
+
+def run_command_lines(max_workers, command_lines):
     work_queue = multiprocessing.JoinableQueue()
     the_pool = multiprocessing.Pool(max_workers,
                                     worker_run,
-                                    (work_queue,)) # <-- The trailing comma is necessary!
+                                    (work_queue,))  # <-- The trailing comma is necessary!
     the_pool.close()
-    for line in lines:
+    for line in command_lines:
         new_task = parse_task_args(line)
         work_queue.put(new_task)
     work_queue.close()
     work_queue.join()
-
 
 parser = argparse.ArgumentParser(description="Run experiments with the given variables")
 parser.add_argument('-ln', '--logicnodes', type=int, help='amount of nodes in the logic network')
@@ -158,7 +169,9 @@ if __name__ == "__main__":
         if get_lines_from is not None:
             conn = http.client.HTTPConnection(get_lines_from)
             conn.request("GET", "/get_jobs/" + str(n_workers))
-            r1 = conn.getresponse()
-            file_lines = (((r1.read()).decode()).replace("[","").replace("]","").replace("\n","")).split(",")
+            json_data = conn.getresponse()
+            lines = get_lines_from_json(json_data)
 
-        run_from_file(n_workers, arg_file, file_lines=file_lines)
+        run_command_lines(n_workers, lines)
+
+# manejar el caso cuando legue lista vacía de jobs y hacer job_done al final
