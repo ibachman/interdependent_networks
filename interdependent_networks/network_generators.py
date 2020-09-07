@@ -1,7 +1,7 @@
 import random
 import math
 import numpy as np
-from interdependent_network_library import *
+from interdependent_networks.interdependent_network_library import *
 import sys
 __author__ = 'ivana'
 

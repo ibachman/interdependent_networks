@@ -1,8 +1,8 @@
 __author__ = 'ivana'
 import datetime
-import network_generators
-import tests_library
-from interdependent_network_library import *
+import interdependent_networks.network_generators as network_generators
+import interdependent_networks.tests_library as tests_library
+from interdependent_networks.interdependent_network_library import *
 
 
 def run_test(x_coordinate, y_coordinate, exp, n_inter, n_logic_suppliers,
@@ -115,55 +115,8 @@ def run_test(x_coordinate, y_coordinate, exp, n_inter, n_logic_suppliers,
         network_system.save_to_pdf(x_coordinate,y_coordinate,exp,n_inter,version=version)
 
         print("system saved "+ str(datetime.datetime.now()))
+    print("run test done")
 
-
-
-    """if n_inter==1:
-            number_of_edges_to_add = (curr_edges + 9999) / 4 - curr_edges
-            #print number_of_edges_to_add
-            new_edges = network_gen.generate_edges_to_add(number_of_edges_to_add,phys_graph)
-            network_gen.save_edges_to_csv(new_edges,x_coordinate,y_coordinate,exp,n_inter,n_logic_suppliers,version=version, model=model) """
-
-    """ ###################### RUN TESTS #############################
-
-    if not os.path.exists('test_results'):
-        os.makedirs('test_results')
-
-    if attack_logic:
-        # attack only logic network
-        print "logic test attack", datetime.datetime.now()
-
-        logic_attack_title = \
-            csv_title_generator("result", x_coordinate, y_coordinate, exp, n_inter,
-                                n_logic_suppliers, attack_type="logic", version=version, model=model)
-        test_gen.single_network_attack(network_system, "logic", "test_results/"+logic_attack_title, iter_number)
-
-    if attack_phys:
-        print "physical test attack", datetime.datetime.now()
-        # attack only physical network
-        if READ_flag:
-            physical_attack_title = "result"+ "_" + str(x_coordinate) + "x" + str(y_coordinate) + "_exp_" + str(
-                exp) + "_ndep_" + str(n_inter) + "_att_physical" + "_lprovnum_" + str(n_logic_suppliers)
-            if version is not "":
-                physical_attack_title = physical_attack_title + "_v" + str(version)
-            if model is not "":
-                physical_attack_title = physical_attack_title + "_m_" + str(model)
-            physical_attack_title += "_withextraedges.csv"
-
-        else:
-            physical_attack_title = \
-                csv_title_generator("result", x_coordinate, y_coordinate, exp, n_inter,
-                                    n_logic_suppliers, attack_type="physical", version=version, model=model)
-        test_gen.single_network_attack(network_system, "physical", "test_results/"+physical_attack_title, iter_number)
-
-    if attack_both:
-        print "whole net test attack", datetime.datetime.now()
-        # attack both networks
-        simult_attack_title = \
-            csv_title_generator("result", x_coordinate, y_coordinate, exp, n_inter,
-                                n_logic_suppliers, attack_type="both", version=version, model=model)
-        test_gen.whole_system_attack(network_system, "test_results/"+simult_attack_title, iter_number)
-    print "---------------- Finished -----------------", datetime.datetime.now() """
 
 
 def add_edges(x_coordinate, y_coordinate, exp, n_inter, n_logic_suppliers, version, n_logic, n_phys, iter_number,

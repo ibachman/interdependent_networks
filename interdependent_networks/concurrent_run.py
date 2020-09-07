@@ -1,17 +1,8 @@
-from runnables import run_test, add_edges
+from interdependent_networks.runnables import run_test, add_edges
 import multiprocessing
 import argparse
 import queue
-import http.client
-import json
-
-
-def get_lines_from_json(json_data):
-    data = json.load(json_data)
-    lines = []
-    for index in data:
-        lines.append(data[index]["instruction"])
-    return lines
+import interdependent_networks.connection_manager as cm
 
 
 def worker_run(worker_queue):
@@ -31,11 +22,15 @@ def worker_run(worker_queue):
             run_test(task['x_coordinate'], task['y_coordinate'], task['exp'], task['n_inter'],
                      task['n_logic_suppliers'], task['version'], task['n_logic'], task['n_phys'],
                      task['iter'], task['READ_flag'], task['attack_type'], task['model'], task['logic'],
-                     task['physical'], task['phys_iteration'], task['strategy'],process_name=process_name)
+                     task['physical'], task['phys_iteration'], task['strategy'], process_name=process_name)
+        # avisar que job_done (task["job_id"])
+        if task["job_id"] > -1:
+            task["server_connection"].set_job_done(task["job_id"])
+            print("[COMPLETED] Job {} completed".format(task["job_id"]))
         worker_queue.task_done()
         if worker_queue.empty():
             break
-    print('Finished work')
+    print('[FINISHED] Finished batch')
 
 
 def run_from_static_params(max_workers):
@@ -96,28 +91,31 @@ def parse_task_args(line):
 
 
 def run_from_file(max_workers, filename, file_lines=[]):
-
     file_lines = [int(l) for l in file_lines]
-
     with open(filename) as f:
         lines = [line.rstrip('\n') for line in f.readlines()]
-
         lines = [lines[i] for i in file_lines]
-
     run_command_lines(max_workers, lines)
 
 
-def run_command_lines(max_workers, command_lines):
+def run_command_lines(max_workers, command_lines, from_server=False):
+    job_id = -1
     work_queue = multiprocessing.JoinableQueue()
     the_pool = multiprocessing.Pool(max_workers,
                                     worker_run,
                                     (work_queue,))  # <-- The trailing comma is necessary!
     the_pool.close()
-    for line in command_lines:
+    for job in command_lines:
+        if from_server:
+            line = job["line"]
+            job_id = job["job_id"]
         new_task = parse_task_args(line)
+        new_task["job_id"] = job_id
+        new_task["server_connection"] = from_server
         work_queue.put(new_task)
     work_queue.close()
     work_queue.join()
+
 
 parser = argparse.ArgumentParser(description="Run experiments with the given variables")
 parser.add_argument('-ln', '--logicnodes', type=int, help='amount of nodes in the logic network')
@@ -160,18 +158,22 @@ if __name__ == "__main__":
     get_lines_from = args.getlinesfrom
     if file_line > 0:
         file_lines = ((file_line.replace("(", "")).replace(")", "")).split(",")
-
     if n_workers is None:
         n_workers = multiprocessing.cpu_count()
-    if arg_file is None:
-        run_from_static_params(n_workers)
-    else:
-        if get_lines_from is not None:
-            conn = http.client.HTTPConnection(get_lines_from)
-            conn.request("GET", "/get_jobs/" + str(n_workers))
-            json_data = conn.getresponse()
-            lines = get_lines_from_json(json_data)
+    if arg_file is not None:
+        run_from_file(n_workers, arg_file)
+    if get_lines_from is not None:
+        server_connection = cm.ConnectionManager(get_lines_from)
+        lines = server_connection.get_jobs_from_server(n_workers)
+        print(lines)
+        n_lines = len(lines)
+        if n_lines > 0:
+            if n_lines < n_workers:
+                rest = n_workers - n_lines
+                print("[FREE CORES] received {} jobs for {} cores, {} cores available".format(n_lines, n_workers, rest))
+                n_workers = len(lines)
+            run_command_lines(n_workers, lines, from_server=server_connection)
+        else:
+            print("[EMPTY ANSWER] No lines received")
 
-        run_command_lines(n_workers, lines)
-
-# manejar el caso cuando legue lista vacía de jobs y hacer job_done al final
+# TODO : manejar el caso cuando legue lista vacía de jobs y hacer job_done al final
