@@ -130,19 +130,20 @@ def generate_edges_to_add_distance(phys_graph, x_coord, y_coord, percentage, n, 
     number_of_added_edges = 0
     ranking = []
     if external:
+        print("external")
         # Make ranking by external degree
-            phys_names = phys_graph.vs["name"]
-            dep_degrees = dependence_graph.degree()
-            dep_sorted_nodes = np.flip(np.argsort(dep_degrees), axis=0)
-            for node in dep_sorted_nodes:
-                if dependence_graph.vs["name"][node] in phys_names:
-                    # Find index in phys graph
-                    index = phys_names.index(dependence_graph.vs["name"][node])
-                    ranking.append(index)
-            # Add nodes that are not connected to the logic layer
-            for node in phys_graph.vs:
-                if node.index not in ranking:
-                    ranking.append(node.index)
+        phys_names = phys_graph.vs["name"]
+        dep_degrees = dependence_graph.degree()
+        dep_sorted_nodes = np.flip(np.argsort(dep_degrees), axis=0)
+        for node in dep_sorted_nodes:
+            if dependence_graph.vs["name"][node] in phys_names:
+                # Find index in phys graph
+                index = phys_names.index(dependence_graph.vs["name"][node])
+                ranking.append(index)
+        # Add nodes that are not connected to the logic layer
+        for node in phys_graph.vs:
+            if node.index not in ranking:
+                ranking.append(node.index)
     while number_of_added_edges < n:
         if external:
             sorted_nodes = ranking
@@ -152,8 +153,8 @@ def generate_edges_to_add_distance(phys_graph, x_coord, y_coord, percentage, n, 
         
         for i in reversed(range(v - number_of_nodes_to_iterate, v)):
             small_degree_node = sorted_nodes[i]
-            target = sys.maxint
-            distance = sys.maxint
+            target = float("inf")
+            distance = float("inf")
             for j in range(v - number_of_nodes_to_iterate):
                 candidate = sorted_nodes[j]
                 x1 = x_coord[small_degree_node]
@@ -205,19 +206,20 @@ def generate_edges_to_add_degree(phys_graph, percentage, number_of_edges_to_add)
 
 def save_edges_to_csv(edge_list, x_coordinates, y_coordinates, pg_exponent, n_dependence="", l_providers="",
                        version="", model="", strategy=""):
-    title = csv_title_generator("candidates",x_coordinates,y_coordinates,pg_exponent,n_dependence,l_providers,attack_type="",version=version, model=model)   
+    title = csv_title_generator("candidates",x_coordinates,y_coordinates,pg_exponent,n_dependence,l_providers,attack_type="",version=version, model=model)
+    path = os.path.dirname(os.path.abspath(__file__))
     if "random" in strategy:
-        full_directory = "networks/random/"+title
+        full_directory = os.path.join(path,"networks","random",title)
     elif "distance" in strategy:
-        full_directory = "networks/distance/"+title
+        full_directory = os.path.join(path,"networks","distance",title)
     elif "external" in strategy:
-        full_directory = "networks/external/"+title
+        full_directory = os.path.join(path,"networks","external",title)
     elif "degree" in strategy:
-        full_directory = "networks/degree/"+title
+        full_directory = os.path.join(path,"networks","degree",title)
     else:
-        full_directory = "networks/"+title 
+        full_directory = os.path.join(path,"networks",title)
     
-    with open(full_directory, 'wb') as csvfile:
+    with open(full_directory, 'w') as csvfile:
         writer = csv.writer(csvfile, delimiter=',', quotechar=',', quoting=csv.QUOTE_MINIMAL)
         for i in range(len(edge_list)):
             j = edge_list[i][0]
