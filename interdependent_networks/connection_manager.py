@@ -31,7 +31,6 @@ class ConnectionManager:
         uri = "/get_jobs/" + str(n_workers)
         if self.machine_name:
             uri += "?machine="+str(self.machine_name)
-        print(uri)
         self.connection.request("GET", uri)
         json_data = self.connection.getresponse()
         return get_lines_from_json(json_data)
