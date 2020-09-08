@@ -1,7 +1,7 @@
 __author__ = 'ivana'
 import datetime
-import interdependent_networks.network_generators as network_generators
-import interdependent_networks.tests_library as tests_library
+from interdependent_networks import network_generators as network_generators
+from interdependent_networks import tests_library as tests_library
 from interdependent_networks.interdependent_network_library import *
 
 
@@ -118,20 +118,21 @@ def run_test(x_coordinate, y_coordinate, exp, n_inter, n_logic_suppliers,
     print("run test done")
 
 
-
 def add_edges(x_coordinate, y_coordinate, exp, n_inter, n_logic_suppliers, version, n_logic, n_phys, iter_number,
               model=[], phys_iteration=0, strategy='random,degree,distance,external'):
+    path = os.path.dirname(os.path.abspath(__file__))
     print("Creando arcos")
     add_random = 'random' in strategy
     add_degree = 'degree' in strategy
     add_distance = 'distance' in strategy
     add_external = 'external' in strategy
     # Read current edges
-    title = "networks/" + csv_title_generator("physic", x_coordinate, y_coordinate, exp, version=phys_iteration, model=model)
+    title = os.path.join(path,"networks",csv_title_generator("physic", x_coordinate, y_coordinate, exp, version=phys_iteration, model=model))
     phys_graph = set_graph_from_csv(title)
 
     # Read coordinates
-    coord_title = "networks/"+ csv_title_generator("nodes", x_coordinate, y_coordinate, exp, version=version)
+    print(version)
+    coord_title = os.path.join(path,"networks", csv_title_generator("nodes", x_coordinate, y_coordinate, exp, version=version))
     print("Leyendo nodos")
     x_coord, y_coord = get_list_of_coordinates_from_csv(coord_title)
     print("Lei nodos")

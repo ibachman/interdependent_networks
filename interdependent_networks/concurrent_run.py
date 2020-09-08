@@ -33,6 +33,7 @@ def worker_run(worker_queue):
     print('[FINISHED] Finished batch')
 
 
+
 def run_from_static_params(max_workers):
     print('Running from static parameters')
     work_queue = multiprocessing.JoinableQueue()
@@ -94,7 +95,8 @@ def run_from_file(max_workers, filename, file_lines=[]):
     file_lines = [int(l) for l in file_lines]
     with open(filename) as f:
         lines = [line.rstrip('\n') for line in f.readlines()]
-        lines = [lines[i] for i in file_lines]
+        if len(file_lines) > 0:
+            lines = [lines[i] for i in file_lines]
     run_command_lines(max_workers, lines)
 
 
@@ -109,13 +111,32 @@ def run_command_lines(max_workers, command_lines, from_server=False):
         if from_server:
             line = job["line"]
             job_id = job["job_id"]
+        else:
+            line = job
         new_task = parse_task_args(line)
         new_task["job_id"] = job_id
         new_task["server_connection"] = from_server
         work_queue.put(new_task)
     work_queue.close()
     work_queue.join()
+    return work_queue
 
+
+def run_batch_from_server(server_name, n_workers, machine_name):
+    server_connection = cm.ConnectionManager(server_name)
+    if machine_name:
+        server_connection.set_machine_name(machine_name)
+    lines = server_connection.get_jobs_from_server(n_workers)
+    n_lines = len(lines)
+    if n_lines > 0:
+        if n_lines < n_workers:
+            rest = n_workers - n_lines
+            print("[FREE CORES] received {} jobs for {} cores, {} cores available".format(n_lines, n_workers, rest))
+            n_workers = len(lines)
+        run_command_lines(n_workers, lines, from_server=server_connection)
+    else:
+        print("[EMPTY ANSWER] No lines received")
+        return True
 
 parser = argparse.ArgumentParser(description="Run experiments with the given variables")
 parser.add_argument('-ln', '--logicnodes', type=int, help='amount of nodes in the logic network')
@@ -139,41 +160,4 @@ parser.add_argument('-st', '--strategy', type=str, help='Strategy for adding new
 parser.add_argument('-me', '--makeedges', action='store_true', help='Create extra edges for strategy')
 
 
-if __name__ == "__main__":
-    argument_parser = argparse.ArgumentParser(description="Run experiments concurrently")
-    argument_parser.add_argument('-w', '--workers', type=int,
-                                 help='amount of concurrent workers, if empty will default to number of cpus')
-    argument_parser.add_argument('-f', '--from_file', type=str,
-                                 help='filename containing the tasks parameters, if empty will use static parameters')
-    argument_parser.add_argument('-l', '--line', type=str,
-                                 help='line containing the instruction to run', default=-1)
-    argument_parser.add_argument('-g', '--getlinesfrom', type=str,
-                                 help='receives url to retreive lines', default=-1)
 
-
-    args = argument_parser.parse_args()
-    n_workers = args.workers
-    arg_file = args.from_file
-    file_line = args.line
-    get_lines_from = args.getlinesfrom
-    if file_line > 0:
-        file_lines = ((file_line.replace("(", "")).replace(")", "")).split(",")
-    if n_workers is None:
-        n_workers = multiprocessing.cpu_count()
-    if arg_file is not None:
-        run_from_file(n_workers, arg_file)
-    if get_lines_from is not None:
-        server_connection = cm.ConnectionManager(get_lines_from)
-        lines = server_connection.get_jobs_from_server(n_workers)
-        print(lines)
-        n_lines = len(lines)
-        if n_lines > 0:
-            if n_lines < n_workers:
-                rest = n_workers - n_lines
-                print("[FREE CORES] received {} jobs for {} cores, {} cores available".format(n_lines, n_workers, rest))
-                n_workers = len(lines)
-            run_command_lines(n_workers, lines, from_server=server_connection)
-        else:
-            print("[EMPTY ANSWER] No lines received")
-
-# TODO : manejar el caso cuando legue lista vacía de jobs y hacer job_done al final
