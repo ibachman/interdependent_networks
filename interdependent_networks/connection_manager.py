@@ -27,6 +27,9 @@ class ConnectionManager:
         self.connection = http.client.HTTPConnection(self.server_name)
         uri = "/job_done/" + str(job_id)
         self.connection.request("GET", uri)
+        json_data = self.connection.getresponse()
+        return get_lines_from_json(json_data)
+
 
     def get_jobs_from_server(self, n_workers):
         self.connection = http.client.HTTPConnection(self.server_name)
