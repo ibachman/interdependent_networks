@@ -1,4 +1,5 @@
-from interdependent_networks import concurrent_run as cr
+# from interdependent_networks import concurrent_run as cr
+import concurrent_run as cr
 import argparse
 import multiprocessing
 import time

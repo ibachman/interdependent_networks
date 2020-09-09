@@ -1,8 +1,8 @@
 __author__ = 'ivana'
 import datetime
-from interdependent_networks import network_generators as network_generators
-from interdependent_networks import tests_library as tests_library
-from interdependent_networks.interdependent_network_library import *
+import network_generators as network_generators
+import tests_library as tests_library
+from interdependent_network_library import *
 
 
 def run_test(x_coordinate, y_coordinate, exp, n_inter, n_logic_suppliers,

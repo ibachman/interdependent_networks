@@ -1,8 +1,8 @@
-from interdependent_networks.runnables import run_test, add_edges
+from runnables import run_test, add_edges
 import multiprocessing
 import argparse
 import queue
-import interdependent_networks.connection_manager as cm
+import connection_manager as cm
 
 
 def worker_run(worker_queue):
