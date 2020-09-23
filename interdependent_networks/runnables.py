@@ -1,57 +1,64 @@
 __author__ = 'ivana'
 import datetime
-import network_generators as network_generators
-import tests_library as tests_library
-from interdependent_network_library import *
+# import network_generators as network_generators
+import interdependent_networks.network_generators as network_generators
+# import tests_library as tests_library
+import interdependent_networks.tests_library as tests_library
+# from interdependent_network_library import *
+from interdependent_networks.interdependent_network_library import *
+#
 
 
 def run_test(x_coordinate, y_coordinate, exp, n_inter, n_logic_suppliers,
              version, n_logic, n_phys, iter_number, READ_flag=False, attack_types=[], model=[], logic_flag=False,
-             physical_flag=False, phys_iteration=0, strategy='', process_name=""):
+             physical_flag=False, phys_iteration=0, strategy='', process_name="", localized_attack_data=[]):
     attack_logic = 'logic' in attack_types
     attack_phys = 'physical' in attack_types
     attack_both = 'both' in attack_types
+    attack_localized = 'localized' in attack_types
 
     if READ_flag:
-        print("start "+ str(datetime.datetime.now()))
-
+        print("start {}".format(datetime.datetime.now()))
         network_system = InterdependentGraph()
-        AS_title = "networks/"+csv_title_generator("logic", x_coordinate, y_coordinate, exp, version=1)
-        phys_title = "networks/"+csv_title_generator("physic", x_coordinate, y_coordinate, exp, version=version,
-                                                     model=model)
-        interd_title = "networks/"+csv_title_generator("dependence", x_coordinate, y_coordinate, exp, n_inter, 6,
-                                                       version=1)
-        providers_title = "networks/"+csv_title_generator("providers", x_coordinate, y_coordinate, exp, n_inter, 6,
-                                                          version=1)
-        nodes_tittle = "networks/"+csv_title_generator("nodes",x_coordinate,y_coordinate,exp,version=1)
-
-        network_system.create_from_csv(AS_title,phys_title,interd_title,nodes_tittle,providers_csv=providers_title)
-        print("system created "+ str(datetime.datetime.now()))
-        #curr_edges = len(network_system.physical_network.get_edgelist())
-        #number_of_edges_to_add = (curr_edges + 9999) / 4 - curr_edges
-        #new_edges = network_gen.generate_edges_to_add(number_of_edges_to_add,network_system.physical_network)
-        #network_gen.save_edges_to_csv(new_edges,x_coordinate,y_coordinate,exp,n_inter,n_logic_suppliers,version=version)
+        path = os.path.dirname(os.path.abspath(__file__))
+        path = os.path.join(path, "networks")
+        AS_title = os.path.join(path, csv_title_generator("logic", x_coordinate, y_coordinate, exp, version=1))
+        phys_title = os.path.join(path, csv_title_generator("physic", x_coordinate, y_coordinate, exp, version=version,
+                                                            model=model))
+        interd_title = os.path.join(path,csv_title_generator("dependence", x_coordinate, y_coordinate, exp, n_inter, 6,
+                                                             version=1))
+        providers_title = os.path.join(path, csv_title_generator("providers", x_coordinate, y_coordinate, exp, n_inter,
+                                                                 6, version=1))
+        nodes_tittle = os.path.join(path,csv_title_generator("nodes",x_coordinate,y_coordinate,exp,version=1))
+        network_system.create_from_csv(AS_title, phys_title, interd_title, nodes_tittle, providers_csv=providers_title)
+        print("system created {}".format(datetime.datetime.now()))
         sub_dir = 'simple_graphs'
 
         if strategy != '':
-            candidates_title = "networks/"+ strategy +"/"+csv_title_generator("candidates",x_coordinate,y_coordinate,exp,version=version, model=model)
-            edges_to_add = get_list_of_tuples_from_csv(candidates_title)
+            path = os.path.dirname(os.path.abspath(__file__))
+            path = os.path.join(path, "networks",strategy, csv_title_generator("candidates", x_coordinate, y_coordinate,
+                                                                              exp, version=version, model=model))
+
+            edges_to_add = get_list_of_tuples_from_csv(path)
             network_system.add_edges_to_physical_network(edges_to_add)
             sub_dir = strategy
 
         if attack_phys:
-            print("physical test attack "+ str(datetime.datetime.now()))
+            print("physical test attack " + str(datetime.datetime.now()))
             # attack only physical network
-            physical_attack_title = "result"+ "_" + str(x_coordinate) + "x" + str(y_coordinate) + "_exp_" + str(
-                exp) + "_ndep_" + str(n_inter) + "_att_physical"
+            physical_attack_title = csv_title_generator("result", x_coordinate, y_coordinate, exp, n_dependence=n_inter,
+                                        attack_type="physical", version=version, model=model)
 
-            if version is not "":
-                physical_attack_title = physical_attack_title + "_v" + str(version)
-            if model is not "":
-                physical_attack_title = physical_attack_title + "_m_" + str(model) + ".csv"
-            tests_library.single_network_attack(network_system, "physical", "test_results/" + sub_dir +"/" +
-                                                physical_attack_title, iter_number, process_name=process_name)
-
+            path = os.path.dirname(os.path.abspath(__file__))
+            path = os.path.join(path, "test_results", sub_dir, physical_attack_title)
+            tests_library.single_network_attack(network_system, "physical", path, iter_number, process_name=process_name)
+        if attack_localized:
+            print("localized attack test " + str(datetime.datetime.now()))
+            # attack physical network using localized attacks
+            radius = localized_attack_data["radius"]
+            tests_library.localized_attack(iter_number, network_system, x_coordinate, y_coordinate, radius, n_inter,
+                                           n_logic_suppliers, version, model, strategy=strategy)
+            print("localized attack test " + str(datetime.datetime.now()))
         else:
             pass
 
@@ -75,7 +82,7 @@ def run_test(x_coordinate, y_coordinate, exp, n_inter, n_logic_suppliers,
             # generate physical network
             coord_title = "networks/" + csv_title_generator("nodes", x_coordinate, y_coordinate, exp, version=version)
             x_coord, y_coord = get_list_of_coordinates_from_csv(coord_title)
-            x, y ,phys_graph = network_generators.generate_physical_network(n_phys, x_coordinate, y_coordinate, model, x_coord, y_coord)
+            x, y, phys_graph = network_generators.generate_physical_network(n_phys, x_coordinate, y_coordinate, model, x_coord, y_coord)
             network_system = InterdependentGraph()
             network_system.set_physical(phys_graph)
             # Save physical

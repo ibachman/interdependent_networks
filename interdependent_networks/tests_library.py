@@ -1,19 +1,20 @@
 __author__ = 'ivana'
 import random
-from interdependent_network_library import *
+# from interdependent_network_library import *
+from interdependent_networks.interdependent_network_library import *
+#
 import numpy
 import datetime
 
 
-def single_network_attack(interdependent_network,network_to_attack, file_name, iter_number, process_name=""):
+def single_network_attack(interdependent_network, network_to_attack, file_name, iter_number, process_name=""):
     physical_network = interdependent_network.get_phys()
     phys_suppliers = interdependent_network.get_phys_providers()
     logic_network = interdependent_network.get_as()
     logic_suppliers = interdependent_network.get_as_providers()
     interdep_graph = interdependent_network.get_interd()
 
-
-    if not network_to_attack == "logic"and not network_to_attack == "physical":
+    if not network_to_attack == "logic" and not network_to_attack == "physical":
         print("Choose a valid network to attack")
         return
     n_phys = len(physical_network.vs)
@@ -26,7 +27,7 @@ def single_network_attack(interdependent_network,network_to_attack, file_name, i
         iteration_range = n_phys
 
     iteration_results = []
-    for j in range(1,n_phys+n_logic):
+    for j in range(1, n_phys + n_logic):
         iteration_results.append([])
     for j in range(iter_number):
         print(" ----------[[" + str(datetime.datetime.now())+ "]]--" + process_name + " -- iteration: " + str(j+1))
@@ -86,16 +87,21 @@ def mtfr_mean_and_std(graph_list, file_name):
         writer.writeheader()
 
 
-def localized_attack(interdependent_network, graph, center_function, radius_function, max_radius, x_coordinate,
-                     y_coordinate, exp, version, file=None):
+def single_localized_attack(interdependent_network, x_coordinate,
+                     y_coordinate, x_center=-1, y_center=-1, radius=-1,
+                     max_radius=-1, center_function=None, radius_function=None, exp="2.5", version="0", file=None):
     physical_network = interdependent_network.get_phys()
     phys_suppliers = interdependent_network.get_phys_providers()
     logic_network = interdependent_network.get_as()
     logic_suppliers = interdependent_network.get_as_providers()
     interdep_graph = interdependent_network.get_interd()
 
-    x_center, y_center = center_function(graph, max_radius, x_coordinate, y_coordinate)
-    radius = radius_function(graph, max_radius, x_coordinate, y_coordinate)
+    if center_function:
+        x_center, y_center = center_function(physical_network, max_radius, x_coordinate, y_coordinate)
+    if radius_function:
+        radius = radius_function(physical_network, max_radius, x_coordinate, y_coordinate)
+    if x_center < 0 or y_center < 0 or radius < 0:
+        exit("Localized attacks: negative center and/or raidus")
 
     # Create copy from original - why tho?
     graph_copy = InterdependentGraph()
@@ -111,13 +117,51 @@ def localized_attack(interdependent_network, graph, center_function, radius_func
 
     # attack:
     graph_copy.attack_nodes(nodes_to_attack)
-    return graph_copy.get_ratio_of_funtional_nodes_in_AS_network()
+    g_l = graph_copy.get_ratio_of_funtional_nodes_in_AS_network()
+    result_dict = {"x_center": x_center,
+                   "y_center": y_center,
+                   "nodes_removed": len(nodes_to_attack),
+                   "GL": g_l,
+                   "radius": radius}
+    return result_dict
+
+
+def localized_attack(iterations, interdependent_network, x_coordinate,
+                     y_coordinate, radius, ndep, providers, version, model, strategy='', center_file=None, centers=None,
+                     max_radius=-1, center_function=None, radius_function=None, exp="2.5", file=None):
+
+    if not centers:
+        centers = []
+        if center_file:
+            # get centers from file
+            with open(center_file, "r") as csvfile:
+                reader = csv.reader(csvfile, delimiter=',', quotechar=',')
+                for row in reader:
+                    centers.append({"x": row[0], "y": row[1]})
+        else:
+            for i in range(iterations):
+                centers.append({"x": numpy.random.uniform(0, x_coordinate), "y": numpy.random.uniform(0, y_coordinate)})
+
+    contents = []
+    for position in centers:
+        for r in radius:
+            contents.append(single_localized_attack(interdependent_network, x_coordinate, y_coordinate, x_center=position["x"],
+                                    y_center=position["y"], radius=r))
+    file_name = csv_title_generator("result", x_coordinate, y_coordinate, exp, n_dependence=ndep,
+                                    attack_type="localized", version=version, model=model)
+    path = os.path.dirname(os.path.abspath(__file__))
+    path = os.path.join(path, "test_results")
+    if strategy != '':
+        path = os.path.join(path, strategy)
+    save_as_csv(path, file_name, contents)
 
 
 def simple_radius(graph, radius, length, width):
     return radius
 
 
-
-
+def random_center(graph, max_radius, x_coordinate, y_coordinate):
+    x_center = numpy.random.uniform(0, max_radius)
+    y_center = numpy.random.uniform(0, max_radius)
+    return x_center, y_center
 

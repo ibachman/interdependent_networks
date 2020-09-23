@@ -1,9 +1,12 @@
-from runnables import run_test, add_edges
+# from runnables import run_test, add_edges
+from interdependent_networks.runnables import run_test, add_edges
+#
 import multiprocessing
 import argparse
 import queue
-import connection_manager as cm
-
+# import connection_manager as cm
+import interdependent_networks.connection_manager as cm
+#
 
 def worker_run(worker_queue):
     print('worker running')
@@ -22,7 +25,8 @@ def worker_run(worker_queue):
             run_test(task['x_coordinate'], task['y_coordinate'], task['exp'], task['n_inter'],
                      task['n_logic_suppliers'], task['version'], task['n_logic'], task['n_phys'],
                      task['iter'], task['READ_flag'], task['attack_type'], task['model'], task['logic'],
-                     task['physical'], task['phys_iteration'], task['strategy'], process_name=process_name)
+                     task['physical'], task['phys_iteration'], task['strategy'],
+                     localized_attack_data=task['localized_attacks'], process_name=process_name)
         # avisar que job_done (task["job_id"])
         if task["job_id"] > -1:
             task["server_connection"].set_job_done(task["job_id"])
@@ -31,7 +35,6 @@ def worker_run(worker_queue):
         if worker_queue.empty():
             break
     print('[FINISHED] Finished batch')
-
 
 
 def run_from_static_params(max_workers):
@@ -87,6 +90,23 @@ def parse_task_args(line):
     task['phys_iteration'] = args.physiteration
     task['strategy'] = args.strategy
     task['make_edges'] = args.makeedges
+    task['localized_attacks_radius'] = args.localizedattacksradius
+    task['localized_attacks_center'] = args.localizedattackscenter
+    task['localized_attacks_file'] = args.localizedattacksfile
+    localized_attack_data = {}
+    if task['localized_attacks_center']:
+
+        x_center = float(task['localized_attacks'][0])
+        y_center = float(task['localized_attacks'][1])
+        localized_attack_data["x_center"] = x_center
+        localized_attack_data["y_center"] = y_center
+    if task['localized_attacks_radius']:
+        localized_attack_data["radius"] = [int(x) for x in task['localized_attacks_radius']]
+    if task['localized_attacks_file']:
+        localized_attack_data["file"] = task['localized_attacks_file']
+    task['localized_attacks'] = localized_attack_data
+    if len(localized_attack_data) > 0:
+        task['attack_type'] = ['localized']
 
     return task
 
@@ -158,6 +178,11 @@ parser.add_argument('-p', '--physical', action='store_true', help='If this is sp
 parser.add_argument('-it', '--physiteration', type=int, help='Number of iteration when creating set of edges', default=0)
 parser.add_argument('-st', '--strategy', type=str, help='Strategy for adding new edges', default='')
 parser.add_argument('-me', '--makeedges', action='store_true', help='Create extra edges for strategy')
+parser.add_argument('-lar', '--localizedattacksradius',  nargs='*', help='Test localized attacks. Receives [radius1, ...]')
+parser.add_argument('-lac', '--localizedattackscenter',  nargs=2, help='Test localized attacks. Receives [x_center, y_center]')
+parser.add_argument('-laf', '--localizedattacksfile',  nargs=1, help='Test localized attacks. Receives filename]')
+
+
 
 
 

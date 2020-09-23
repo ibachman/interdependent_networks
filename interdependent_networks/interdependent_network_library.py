@@ -3,6 +3,19 @@ import csv
 import os
 
 
+def save_as_csv(path, file_name, content_dict):
+    title = os.path.join(path,file_name)
+    with open(title, 'w') as csvfile:
+        writer = csv.writer(csvfile, delimiter=',', quotechar=',', quoting=csv.QUOTE_MINIMAL)
+        first_line = content_dict[0].keys()
+        writer.writerow(first_line)
+        for row in content_dict:
+            line = []
+            for column in first_line:
+                line.append(row[column])
+            writer.writerow(line)
+
+
 def csv_title_generator(graph_type, x_coordinates, y_coordinates, pg_exponent, n_dependence="", l_providers="",
                         attack_type="", version="", model=""):
     title = str(graph_type) + "_" + str(x_coordinates) + "x" + str(y_coordinates) + "_exp_" + str(
