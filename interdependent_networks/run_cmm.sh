@@ -6,4 +6,4 @@ mkdir -p test_results/simple_graphs
 
 pip3 install -r requirements.txt
 
-python3 job_manager.py -f all_experiments.txt -w 3
+python3 job_manager.py -f all_experiments.txt -w 88
