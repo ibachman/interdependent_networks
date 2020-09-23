@@ -1,11 +1,11 @@
 __author__ = 'ivana'
 import datetime
-# import network_generators as network_generators
-import interdependent_networks.network_generators as network_generators
-# import tests_library as tests_library
-import interdependent_networks.tests_library as tests_library
-# from interdependent_network_library import *
-from interdependent_networks.interdependent_network_library import *
+import network_generators as network_generators
+# import interdependent_networks.network_generators as network_generators
+import tests_library as tests_library
+# import interdependent_networks.tests_library as tests_library
+from interdependent_network_library import *
+# from interdependent_networks.interdependent_network_library import *
 #
 
 

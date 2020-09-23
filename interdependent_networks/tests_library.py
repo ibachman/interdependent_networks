@@ -1,7 +1,7 @@
 __author__ = 'ivana'
 import random
-# from interdependent_network_library import *
-from interdependent_networks.interdependent_network_library import *
+from interdependent_network_library import *
+# from interdependent_networks.interdependent_network_library import *
 #
 import numpy
 import datetime
