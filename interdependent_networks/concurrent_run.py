@@ -5,8 +5,9 @@ import multiprocessing
 import argparse
 import queue
 import connection_manager as cm
+import sys
 # import interdependent_networks.connection_manager as cm
-#
+
 
 def worker_run(worker_queue):
     print('worker running')
@@ -158,6 +159,7 @@ def run_batch_from_server(server_name, n_workers, machine_name):
         print("[EMPTY ANSWER] No lines received")
         return True
 
+
 parser = argparse.ArgumentParser(description="Run experiments with the given variables")
 parser.add_argument('-ln', '--logicnodes', type=int, help='amount of nodes in the logic network')
 parser.add_argument('-pn', '--physicalnodes', type=int, help='amount of nodes in the physical network')
@@ -183,6 +185,9 @@ parser.add_argument('-lac', '--localizedattackscenter',  nargs=2, help='Test loc
 parser.add_argument('-laf', '--localizedattacksfile',  nargs=1, help='Test localized attacks. Receives filename]')
 
 
-
+if __name__ == "__main__":
+    line = " ".join(sys.argv[1::])
+    run_command_lines(1, [line])
+    
 
 
