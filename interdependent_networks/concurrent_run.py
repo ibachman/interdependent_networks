@@ -188,6 +188,6 @@ parser.add_argument('-laf', '--localizedattacksfile',  nargs=1, help='Test local
 if __name__ == "__main__":
     line = " ".join(sys.argv[1::])
     run_command_lines(1, [line])
-    
+
 
 

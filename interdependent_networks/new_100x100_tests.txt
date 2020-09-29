@@ -1,0 +1,600 @@
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m MRN
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m GG
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m 5NN
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m MRN -st random
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m GG -st random
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m 5NN -st random
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m MRN -st degree
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m GG -st degree
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m 5NN -st degree
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 7 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 1 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 10 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 3 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 1 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 2 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 3 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 4 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 5 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 6 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 7 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 8 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 9 -i 100 -at physical -r -m 5NN -st distance
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m MRN -st distance
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m GG -st distance
+-ln 300 -pn 2000 -ia 5 -ls 6 -e 2.5 -x 100 -y 100 -v 10 -i 100 -at physical -r -m 5NN -st distance

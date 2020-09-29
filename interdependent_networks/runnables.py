@@ -22,16 +22,21 @@ def run_test(x_coordinate, y_coordinate, exp, n_inter, n_logic_suppliers,
         network_system = InterdependentGraph()
         path = os.path.dirname(os.path.abspath(__file__))
         path = os.path.join(path, "networks")
-        AS_title = os.path.join(path, csv_title_generator("logic", x_coordinate, y_coordinate, exp, version=1))
+        AS_title = os.path.join(path, csv_title_generator("logic", "20", "500", exp, version=1))
         phys_title = os.path.join(path, csv_title_generator("physic", x_coordinate, y_coordinate, exp, version=version,
                                                             model=model))
-        interd_title = os.path.join(path,csv_title_generator("dependence", x_coordinate, y_coordinate, exp, n_inter, 6,
+        interd_title = os.path.join(path,csv_title_generator("dependence",  "20", "500", exp, n_inter, 6,
                                                              version=1))
-        providers_title = os.path.join(path, csv_title_generator("providers", x_coordinate, y_coordinate, exp, n_inter,
+        providers_title = os.path.join(path, csv_title_generator("providers",  "20", "500", exp, n_inter,
                                                                  6, version=1))
-        nodes_tittle = os.path.join(path,csv_title_generator("nodes",x_coordinate,y_coordinate,exp,version=1))
-        network_system.create_from_csv(AS_title, phys_title, interd_title, nodes_tittle, providers_csv=providers_title)
-        print("system created {}".format(datetime.datetime.now()))
+        nodes_title = os.path.join(path,csv_title_generator("nodes",x_coordinate,y_coordinate,exp,version=1))
+        network_system.create_from_csv(AS_title, phys_title, interd_title, nodes_title, providers_csv=providers_title)
+        print("System created {} from:".format(datetime.datetime.now()))
+        print(" -> Logical network: {}".format(AS_title))
+        print(" -> Inter-links: {}".format(interd_title))
+        print(" -> Providers: {}".format(providers_title))
+        print(" -> Physical network: {}".format(phys_title))
+        print(" -> Node allocation: {}".format(nodes_title))
         sub_dir = 'simple_graphs'
 
         if strategy != '':
@@ -41,6 +46,7 @@ def run_test(x_coordinate, y_coordinate, exp, n_inter, n_logic_suppliers,
 
             edges_to_add = get_list_of_tuples_from_csv(path)
             network_system.add_edges_to_physical_network(edges_to_add)
+            print(" -> Added edges from: {}".format(path))
             sub_dir = strategy
 
         if attack_phys:
