@@ -57,6 +57,7 @@ def run_test(x_coordinate, y_coordinate, exp, n_inter, n_logic_suppliers,
 
             path = os.path.dirname(os.path.abspath(__file__))
             path = os.path.join(path, "test_results", sub_dir, physical_attack_title)
+
             tests_library.single_network_attack(network_system, "physical", path, iter_number, process_name=process_name)
         if attack_localized:
             print("localized attack test " + str(datetime.datetime.now()))

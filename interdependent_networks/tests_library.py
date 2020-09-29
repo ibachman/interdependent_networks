@@ -8,6 +8,7 @@ import datetime
 
 
 def single_network_attack(interdependent_network, network_to_attack, file_name, iter_number, process_name=""):
+    print(" -> Results path: {}".format(file_name))
     physical_network = interdependent_network.get_phys()
     phys_suppliers = interdependent_network.get_phys_providers()
     logic_network = interdependent_network.get_as()
@@ -42,6 +43,7 @@ def single_network_attack(interdependent_network, network_to_attack, file_name, 
     print("Staring to write results " + str(datetime.datetime.now()))
 
     with open(file_name,'w') as csvfile:
+        print(" -> Writing results on: {}".format(file_name))
         fieldnames = ["1-p", "mean", "std"]
         writer = csv.DictWriter(csvfile,fieldnames=fieldnames)
         writer.writeheader()
