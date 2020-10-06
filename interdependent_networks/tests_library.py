@@ -120,9 +120,14 @@ def single_localized_attack(interdependent_network, x_coordinate,
     # attack:
     graph_copy.attack_nodes(nodes_to_attack)
     g_l = graph_copy.get_ratio_of_funtional_nodes_in_AS_network()
+    aux_str = "["
+    for n in nodes_to_attack:
+        aux_str += "{}.".format(n)
+    aux_str = aux_str[0:(len(aux_str)-1)] + "]"
+
     result_dict = {"x_center": x_center,
                    "y_center": y_center,
-                   "nodes_removed": len(nodes_to_attack),
+                   "nodes_removed": aux_str,
                    "GL": g_l,
                    "radius": radius}
     return result_dict
@@ -141,8 +146,9 @@ def localized_attack(iterations, interdependent_network, x_coordinate,
                 for row in reader:
                     centers.append({"x": row[0], "y": row[1]})
         else:
-            for i in range(iterations):
-                centers.append({"x": numpy.random.uniform(0, x_coordinate), "y": numpy.random.uniform(0, y_coordinate)})
+            x_coordinate = int(x_coordinate)
+            y_coordinate = int(y_coordinate)
+            centers = uniform_centers_for_geography(x_coordinate, y_coordinate, 100)
 
     contents = []
     for position in centers:
@@ -167,3 +173,17 @@ def random_center(graph, max_radius, x_coordinate, y_coordinate):
     y_center = numpy.random.uniform(0, max_radius)
     return x_center, y_center
 
+
+def uniform_centers_for_geography(width, length, amount):
+    area = width*length
+    square_side = int(numpy.sqrt(area/amount))
+    width_cells = int(width/square_side)
+    length_cells = int(length/square_side)
+    centers = []
+    p = 1
+    for i in range(width_cells):
+        x_center = (i + 0.5)*square_side
+        for j in range(length_cells):
+            y_center = (j+0.5)*square_side
+            centers.append({"x": x_center, "y": y_center})
+    return centers
