@@ -1,21 +1,25 @@
 __author__ = 'ivana'
 import datetime
 import network_generators as network_generators
-# import interdependent_networks.network_generators as network_generators
+#import interdependent_networks.network_generators as network_generators
 import tests_library as tests_library
-# import interdependent_networks.tests_library as tests_library
+#import interdependent_networks.tests_library as tests_library
 from interdependent_network_library import *
-# from interdependent_networks.interdependent_network_library import *
+#from interdependent_networks.interdependent_network_library import *
 #
 
 
 def run_test(x_coordinate, y_coordinate, exp, n_inter, n_logic_suppliers,
              version, n_logic, n_phys, iter_number, READ_flag=False, attack_types=[], model=[], logic_flag=False,
-             physical_flag=False, phys_iteration=0, strategy='', process_name="", localized_attack_data=[]):
+             physical_flag=False, phys_iteration=0, strategy='', process_name="", localized_attack_data=[],
+             seismic_data=[]):
+
     attack_logic = 'logic' in attack_types
     attack_phys = 'physical' in attack_types
     attack_both = 'both' in attack_types
     attack_localized = 'localized' in attack_types
+    #
+    attack_seismic = 'seismic' in attack_types
 
     if READ_flag:
         print("start {}".format(datetime.datetime.now()))
@@ -66,6 +70,16 @@ def run_test(x_coordinate, y_coordinate, exp, n_inter, n_logic_suppliers,
             tests_library.localized_attack(iter_number, network_system, x_coordinate, y_coordinate, radius, n_inter,
                                            n_logic_suppliers, version, model, strategy=strategy)
             print("localized attack test " + str(datetime.datetime.now()))
+        #
+        if attack_seismic:
+            print("seismic attack test " + str(datetime.datetime.now()))
+            # aca la idea es poner una función que lea datos sísmicos de un archivo y llamé a la otra función que hace
+            # en serio el ataque
+            seismic_data_file = seismic_data["file"]
+            tests_library.seismic_attacks(network_system, x_coordinate, y_coordinate, n_inter, version, model,
+                                          seismic_data_file)
+            print("seismic attack test " + str(datetime.datetime.now()))
+
         else:
             pass
 

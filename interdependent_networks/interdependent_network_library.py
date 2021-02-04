@@ -244,13 +244,13 @@ class InterdependentGraph(object):
     
     def set_AS(self, AS_graph):
         # save AS graph (create copy from original)
-        self.AS_network = igraph.Graph([e.tuple for e in AS_graph.es])
-        self.AS_network.vs["name"] = AS_graph.vs["name"]
+        #self.AS_network = igraph.Graph([e.tuple for e in AS_graph.es])
+        self.AS_network = AS_graph
         return self
     
     def set_physical(self, physical_graph):
-        self.physical_network = igraph.Graph([e.tuple for e in physical_graph.es])
-        self.physical_network.vs["name"] = physical_graph.vs["name"]
+        #self.physical_network = igraph.Graph([e.tuple for e in physical_graph.es])
+        self.physical_network = physical_graph
         return self
 
 
