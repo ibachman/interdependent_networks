@@ -13,6 +13,7 @@ mkdir -p test_results/degree
 mkdir -p test_results/distance
 mkdir -p test_results/random
 mkdir -p test_results/simple_graphs
+mkdir -p test_results/seismic
 
 pip3 install -r requirements.txt
 
